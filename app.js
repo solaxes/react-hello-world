@@ -1,5 +1,9 @@
 // Create Element here takes three arguments
-const heading = React.createElement("h1", {}, "Hello world from React!");
+const heading = React.createElement(
+  "h1",
+  { id: "heading" },
+  "Hello world from React!"
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
